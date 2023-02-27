@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#red {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  right: 0;
+}
+#blue {
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  left: 0;
+}
+#black {
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+  right: 0;
+}

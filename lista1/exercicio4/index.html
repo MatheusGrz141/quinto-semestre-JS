@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <script src = "script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ficha cadastral</h1>
+    <div class="corpo">  
+        <div class="textos"><p>Nome:</p>
+            <p>RG</p>
+            <P>Endereço</P>
+            <p>sexo:</p>
+            <P>SITUAÇÃO CIVIL</P> 
+        </div>
+        <div class="entradas">
+            <input name="nome" class="nome" >
+            <input name="rg" class="rg" type="text">
+            <P class="cpf">CPF:</P>
+
+            
+            <input name="cpf"class="cpf" type="number">
+
+            <input name="endereco" class="endereco" type="text"> 
+
+
+
+            <select name="sexo" id="sexo">
+                <option value="Selecione">Selecione</option>
+                <option value="ms">Masculino</option>
+                <option value="fm">Feminino</option>
+                <option value="pr">Pitbull rebaixado</option>
+            </select>
+            <P name="data" class="data">DATA NASCIMENTO</P>
+            <input class="data" type="date">
+            <div name="civil" class="civil">
+                <input name="tipo" type="radio" value="Solteiro">Solteiro(a)
+                <input name="tipo" type="radio" value="casado"> casado(a)
+                <input name="tipo" type="radio" value="viúvo"> Viúvo(a)  
+            </div>
+            
+        </div>  
+        
+    </div>
+    <div class="limpar">
+        <button type="button" onclick="limpar()">Limpar dados</button>
+    </div>
+    
+    
+</body>
+
+</html>

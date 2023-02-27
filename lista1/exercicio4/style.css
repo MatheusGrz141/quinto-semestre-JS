@@ -1,0 +1,38 @@
+.corpo{
+    display: flex;
+}
+h1{
+    text-align: center;
+
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 40px;
+}.entradas {
+    margin-top: 40px; 
+}
+.entradas *{
+    margin: 15px 30px; 
+}
+.nome{
+    width: 95%;
+  
+}
+.cpf{
+    display: inline;
+}
+.endereco{
+    display: block;
+    width: 95%;
+}
+.data{
+    display: inline;
+}
+.limpar{
+    display: block;
+  text-align: center; 
+    
+}
