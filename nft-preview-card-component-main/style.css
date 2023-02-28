@@ -1,0 +1,103 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  margin: auto;
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  padding: 25px 0;
+  width: 350px;
+  margin: 100px auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+.imagem {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagem:hover {
+  cursor: pointer;
+  background-image: url(images/icon-view.svg);
+  
+  opacity: 0.04;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  padding: 0 25px;
+  font-size: 1.375em;
+  font-family: "Outfit", sans-serif;
+  transition: 0.5s;
+}
+h1:hover {
+  color: aqua;
+  transition: 0.5s;
+  cursor: pointer;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 32%, 27%);
+  padding: 0 25px;
+  font-size: 1.125em;
+}
+.diamante,
+.hora {
+  margin: 0;
+  padding: 0;
+
+  color: white;
+  display: inline;
+  font-size: 1.125em;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+.diamante {
+  margin-left: 25px;
+  color: aqua;
+}
+.hora {
+  color: hsl(215, 32%, 27%);
+  margin-left: 100px;
+}
+.risco {
+  width: 85%;
+  height: 2px;
+  margin: 10px auto;
+
+  background-color: hsl(215, 32%, 27%);
+}
+.footer {
+  display: flex;margin: 30px 0 auto 25px;
+}
+.footer img {
+  
+  width: 2.5em;
+  height: 2.5em;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.footer p {
+  font-size: 1em;
+}
+.footer a {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer a:hover {
+  transition: 0.5s;
+  cursor: pointer;
+
+  color: aqua;
+}
